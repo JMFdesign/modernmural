@@ -9,9 +9,164 @@ dark blue: #006e99
 mid blue: #27aae1
 light blue: #b3cdd7
 
+white: #fff;
+black: #000;
+
 */
 
+/*------------------------------------*\
+    #GRID-SETTINGS
+\*------------------------------------*/
 
-body{
+/*
+.page {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "social contact_btn contact_btn sister"
+    "header header header header"
+    "main1 main2 main3 main4"
+    "footer footer footer footer";
+  height: 100vh;
+}
+
+.social {
+  grid-area: social;
+}
+
+.contact_btn {
+  grid-area: contact_btn;
+}
+
+.sister {
+  grid-area: sister;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+*/
+
+/* nav styling */
+
+nav {
   background: #003333;
+  width: 100%;
+	height: auto;
+	padding: 10px 0;
+	margin: auto;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+ul {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  display: inline;
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+a:hover, svg:hover {
+  color: #a7d5bf;
+  opacity: 0.9;
+}
+
+a:visited {
+  color: #2bb672;
+}
+
+svg {
+  fill: currentColor;
+  padding: 0;
+  }
+
+img {
+  width: 50px;
+  padding: 0;
+}
+
+.social {
+  text-align: left;
+  float:left;
+}
+
+.contact_btn {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.sister {
+  text-align: right;
+  float: right;
+}
+
+.sister p {
+  display: inline;
+  vertical-align: middle;
+}
+
+.sister img {
+  width: 15%;
+}
+
+/* contact us button styling */
+button {
+  background-color: #27aae1;
+  color: #fff;
+  padding: 10px;
+  size: 1.2em;
+  margin: auto;
+}
+
+/* header styling */
+header img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  clear: both;
+  z-index: -1;
+}
+
+.striped_border img {
+  padding: 0;
+  margin: -10px 0 0 0;
+  width: 100%;
+  border: 8px solid #a7d5bf;
+}
+
+.logo {
+  padding: 0;
+  width: 50%;
+  margin: -200px auto 0 auto;
+  z-index: 9999;
+}
+
+.logo img {
+  padding: 0;
+  width: 95%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
 }
