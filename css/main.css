@@ -9,7 +9,7 @@ dark blue: #006e99
 mid blue: #27aae1
 light blue: #b3cdd7
 
-white: #fff;
+white: #ffffff;
 black: #000;
 
 */
@@ -56,36 +56,72 @@ footer {
 }
 */
 
-/* nav styling */
+h1, h2, h3, h6 {
+
+}
+
+p {
+
+}
+
+/* nav upper and lower styling */
 
 nav {
   background: #003333;
-  width: 100%;
-	height: auto;
-	padding: 10px 0;
-	margin: auto;
 	position: fixed;
 	top: 0;
 	z-index: 9999;
 }
 
-ul {
+nav, .nav_lower {
   width: 100%;
   height: auto;
+  padding: 10px 0;
+  margin: auto;
 }
 
-li {
+.nav_lower {
+  background: #ffffff;
+  display: flex;
+}
+
+.nav_lower h3 {
+  text-transform: uppercase;
+  color: #27aae1;
+}
+
+nav ul, .nav_lower ul, .nav_lower h3 {
+  width: 100%;
+  height: auto;
+  display: inline;
+  margin: auto;
+}
+
+nav li, .nav_lower li {
   display: inline;
   width: 100%;
 }
 
-a {
+.nav_lower ul, .nav_lower ul li {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav_lower ul li {
+  box-sizing: border-box;
+  width: calc(100% / 4);
+  text-align: center;
+  margin: auto;
+}
+
+a{
   color: #fff;
   font-size: 1.4em;
   text-decoration: none;
 }
 
-a:hover, svg:hover {
+a:hover, svg:hover, .nav_lower h3:hover {
   color: #a7d5bf;
   opacity: 0.9;
 }
@@ -99,9 +135,8 @@ svg {
   padding: 0;
   }
 
-img {
+nav img {
   width: 50px;
-  padding: 0;
 }
 
 .social {
@@ -160,7 +195,7 @@ header img {
   padding: 0;
   width: 50%;
   margin: -200px auto 0 auto;
-  z-index: 9999;
+  z-index: 9000;
 }
 
 .logo img {
@@ -169,4 +204,72 @@ header img {
   text-align: center;
   vertical-align: middle;
   padding: 20px;
+}
+
+/* call to action graphic */
+.create {
+  padding: 0;
+  width: 16%;
+  position: absolute;
+  margin: -500px auto;
+  right: 100px;
+  z-index: 8999;
+  transition: width 0.5s ease-in-out,
+      opacity 0.5s ease-in-out;
+}
+
+.create:hover {
+  width: 18%;
+}
+
+@keyframes width {
+  0% {
+    width: 16%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+/* main section styling */
+main {
+  background-color: #003333;
+  margin-bottom: 40px;
+}
+
+/* cards below lower nav */
+.cards {
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.card {
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    float: none;
+    width: calc(100% / 4);
+    margin: auto;
+
+.card:last-child {
+    margin: auto 0 auto auto;
+}
+
+.card img {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.card_content {
+    padding: 20px;
+}
+
+/* footer styling */
+
+footer {
+  background-color: #27aae1;
+  margin-top: 40px;
 }
