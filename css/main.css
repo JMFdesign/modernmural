@@ -77,7 +77,6 @@ nav, .nav_lower {
   width: 100%;
   height: auto;
   padding: 10px 0;
-  margin: auto;
 }
 
 .nav_lower {
@@ -130,25 +129,25 @@ a:visited {
   color: #2bb672;
 }
 
-svg {
-  fill: currentColor;
-  padding: 0;
-  }
-
 nav img {
   width: 50px;
+  display: inline;
 }
 
 .social {
+  display: inline;
   text-align: left;
   float:left;
 }
 
 .contact_btn {
-  width: 200px;
   margin: auto;
   text-align: center;
-  justify-content: center;
+  float: right;
+}
+
+.contact_btn img {
+  width: 20%;
 }
 
 .sister {
@@ -165,14 +164,6 @@ nav img {
   width: 15%;
 }
 
-/* contact us button styling */
-button {
-  background-color: #27aae1;
-  color: #fff;
-  padding: 10px;
-  size: 1.2em;
-  margin: auto;
-}
 
 /* header styling */
 header img {
@@ -242,7 +233,7 @@ main {
   display: flex;
   width: 100%;
   color: #ffffff;
-  margin-top: 30px;
+  padding: 30px 0;
 }
 
 .card {
@@ -251,16 +242,17 @@ main {
     flex-direction: column;
     float: none;
     width: calc(100% / 4);
-    margin: auto;
-
-.card:last-child {
-    margin: auto 0 auto auto;
+    margin: 20px auto;
 }
 
 .card img {
-    width: 100%;
+    width: 50%;
     text-align: center;
     margin: auto;
+}
+
+.card:last-child {
+    margin-right: 0;
 }
 
 .card_content {
@@ -271,5 +263,16 @@ main {
 
 footer {
   background-color: #27aae1;
-  margin-top: 40px;
+  color: #ffffff;
+  margin-top: -40px;
+  padding: 0;
+  height: auto;
+}
+
+footer h6, footer p {
+  font-size: 0.8em;
+}
+
+footer h6 {
+  line-height: 0.8em;
 }
