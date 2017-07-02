@@ -1,0 +1,7 @@
+{
+    "preset": "jquery",
+    "validateQuoteMarks": { "mark": "'", "escape": true },
+    "requireCapitalizedComments": false,
+    "disallowMultipleSpaces": true,
+    "requireDotNotation": false
+}
