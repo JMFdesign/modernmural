@@ -42,6 +42,7 @@ nav {
 	position: fixed;
 	top: 0;
 	z-index: 9999;
+  border-bottom: 8px solid #a7d5bf;
 }
 
 nav, .nav_lower {
@@ -106,7 +107,7 @@ a:visited {
 .social li img {
   display: inline-block;
   text-align: left;
-  float:left;
+  float: left;
   max-width: 50px;
   padding: 0 3px;
 }
@@ -179,7 +180,7 @@ header img {
   right: 100px;
   z-index: 8999;
   transition: width 0.5s ease-in-out,
-      opacity 0.5s ease-in-out;
+  opacity 0.5s ease-in-out;
 }
 
 .create:hover {
