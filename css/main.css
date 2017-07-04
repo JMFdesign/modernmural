@@ -99,7 +99,11 @@ a:visited {
   color: #2bb672;
 }
 
-.social, .social li img {
+.social {
+  padding: 0 3px;  
+}
+
+.social li img {
   display: inline-block;
   text-align: left;
   float:left;
