@@ -16,12 +16,12 @@ black: #000;
 
 @font-face {
 	font-family: "champagne";
-	src: url(fonts/champagnelimousines.ttf);
+	src: url(../fonts/champagnelimousines.ttf);
 }
 
 @font-face {
   font-family: "segoe";
-  src: url(fonts/segoeui.ttf);
+  src: url(../fonts/segoeui.ttf);
 }
 
 h1, h2, h3 {
