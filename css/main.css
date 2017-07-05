@@ -208,7 +208,8 @@ header img {
 /* main section styling */
 main {
   background-color: #003333;
-  margin-bottom: 40px;
+  margin-top: -20%;
+  padding-bottom: 5%;
 }
 
 /* cards below lower nav */
@@ -216,30 +217,30 @@ main {
   display: flex;
   width: 100%;
   color: #ffffff;
-  padding: 30px 0;
+  padding: 15% 0 0 0;
 }
 
 .card {
-    flex-basis: 300px;
-    display: flex;
-    flex-direction: column;
-    float: none;
-    width: calc(100% / 4);
-    margin: 20px auto;
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  float: none;
+  width: calc(100% / 4);
+  margin: 10% auto 0 auto;
 }
 
 .card img {
-    width: 50%;
-    text-align: center;
-    margin: auto;
+  width: 50%;
+  text-align: center;
+  margin: 5% auto 0 auto;
 }
 
 .card:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .card_content {
-    padding: 20px;
+  padding: 20px;
 }
 
 /* footer styling */
@@ -250,6 +251,7 @@ footer {
   margin-top: -40px;
   padding: 0;
   height: auto;
+  border-top: 8px solid #a7d5bf;
 }
 
 footer h6 {
@@ -260,6 +262,21 @@ footer h6 {
 
 footer p {
   font-size: 0.9em;
+}
+
+.cards_ftr {
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+}
+
+.card_ftr {
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    float: none;
+    width: calc(100% / 4);
+    margin: 1% auto 0 auto;
 }
 
 
