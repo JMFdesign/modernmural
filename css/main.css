@@ -147,6 +147,9 @@ header img {
   height: auto;
   clear: both;
   z-index: -1;
+}
+
+#hero {
   border-bottom: 8px solid #a7d5bf;
 }
 
