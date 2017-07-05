@@ -129,6 +129,18 @@ a:visited {
 
 .contact_btn h3 {
   font-size: 0.75em;
+  background-color: #27aae1;
+  width: 30%;
+  padding: 2%;
+  margin: 1.25% 35%;
+}
+
+.contact_btn h3:active {
+  background-color: #a7d5bf;
+}
+
+.contact_btn h3:visited {
+  background-color: #2bb673;
 }
 
 .sister {
