@@ -113,7 +113,7 @@ a:visited {
 }
 
 .contact_btn {
-  margin: 0 auto;
+  margin: 0.75% auto;
   text-align: center;
   clear: both;
   float: right;
@@ -124,6 +124,7 @@ a:visited {
 }
 
 .sister {
+  margin: 0.75% auto;
   text-align: right;
   float: right;
 }
@@ -254,7 +255,7 @@ footer {
   border-top: 8px solid #a7d5bf;
 }
 
-footer h6 {
+footer h6 { 
   font-size: 1.1em;
   line-height: 0.8em;
   padding:0;
@@ -271,12 +272,12 @@ footer p {
 }
 
 .card_ftr {
-    flex-basis: 300px;
-    display: flex;
-    flex-direction: column;
-    float: none;
-    width: calc(100% / 4);
-    margin: 1% auto 0 auto;
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  float: none;
+  width: calc(100% / 4);
+  margin: 1% auto 0 auto;
 }
 
 
