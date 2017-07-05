@@ -147,6 +147,7 @@ header img {
   height: auto;
   clear: both;
   z-index: -1;
+  border-bottom: 8px solid #a7d5bf;
 }
 
 .striped_border img {
@@ -169,6 +170,8 @@ header img {
   text-align: center;
   vertical-align: middle;
   padding: 20px;
+  border: 8px solid #a7d5bf;
+  background-color: #ffffff;
 }
 
 /* call to action graphic */
