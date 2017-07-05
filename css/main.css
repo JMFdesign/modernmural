@@ -153,12 +153,14 @@ header img {
   border-bottom: 8px solid #a7d5bf;
 }
 
+/*
 .striped_border img {
   padding: 0;
   margin: -10px 0 0 0;
   width: 100%;
   border: 8px solid #a7d5bf;
 }
+*/
 
 .logo {
   padding: 0;
@@ -175,6 +177,7 @@ header img {
   padding: 20px;
   border: 8px solid #a7d5bf;
   background-color: #ffffff;
+  margin-top: 15%;
 }
 
 /* call to action graphic */
