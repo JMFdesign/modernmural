@@ -160,7 +160,7 @@ a:visited {
 
 .sister img {
   width: 35%;
-  padding-right: 20px;
+  padding-right: 8%;
 }
 
 @media all and (min-width: 800px) {
@@ -211,7 +211,7 @@ header img {
   width: 95%;
   text-align: center;
   vertical-align: middle;
-  padding: 20px;
+  padding: 8%;
   border: 8px solid #a7d5bf;
   background-color: #ffffff;
   margin-top: 15%;
@@ -250,30 +250,30 @@ main {
 }
 
 /* cards below lower nav */
+.cards {
+  padding: 25% 1% 1% 1%;
+}
+
 .cards, .cards_ftr {
   /*display: flex;*/
   width: 100vw;
   color: #ffffff;
-  padding: 25% 1% 1% 1%;
   display: inline-block;
   margin: 0 1%;
 }
 
-.card, .card_ftr {
+.card {
   /*flex-basis: 300px;
   display: flex;
   flex-direction: column;*/
   width: 49%;
   margin: 1% auto 0 auto;
   display: inline-block;
+  vertical-align: text-top;
 }
 
 @media all and (min-width: 800px) {
-  .card, .card_ftr {
-    width: calc(95% / 4);
-  }
-
-    .card:, .card_ftr {
+  .card {
     width: calc(95% / 4);
   }
 }
@@ -289,7 +289,7 @@ main {
 }
 
 .card_content {
-  padding: 20px;
+  padding: 8%;
 }
 
 .card_content h2 {
@@ -301,7 +301,6 @@ main {
 footer {
   background-color: #27aae1;
   color: #ffffff;
-  margin-top: -40px;
   padding: 0;
   height: auto;
   border-top: 8px solid #a7d5bf;
@@ -318,6 +317,10 @@ footer p {
 }
 
 .cards_ftr {
+  padding: 1%;
+}
+
+/*.cards_ftr {
   display: flex;
   width: 100%;
   color: #ffffff;
@@ -330,7 +333,7 @@ footer p {
   float: none;
   width: calc(100% / 4);
   margin: 1% auto 0 auto;
-}
+}*/
 
 
 
